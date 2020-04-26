@@ -26,14 +26,20 @@ h2 {
   font-size: 30px;
   line-height: 36px;
   font-weight: 400;
+  margin: 0 0 36px 0;
 }
 
 h3 {
   font-family: "Ubuntu", sans-serif;
-  font-size: 14;
+  font-size: 14px;
   color: #b4ad9e;
   font-weight: 300;
   text-transform: uppercase;
+  margin: 0px 0px 32px 0px;
+}
+
+img {
+  margin-bottom: 30px;
 }
 
 /* NAVIGATION SECTION */
@@ -49,7 +55,7 @@ h3 {
   display: inline-block;
   width: 18%;
   text-align: center;
-  padding-top: 77px;
+  padding-top: 72px;
 }
 
 .site-navigation li:first-child {
