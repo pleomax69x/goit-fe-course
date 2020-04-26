@@ -26,7 +26,7 @@ h2 {
   font-size: 30px;
   line-height: 36px;
   font-weight: 400;
-  margin: 0 0 36px 0;
+  margin-bottom: 36px;
 }
 
 h3 {
@@ -35,7 +35,7 @@ h3 {
   color: #b4ad9e;
   font-weight: 300;
   text-transform: uppercase;
-  margin: 0px 0px 32px 0px;
+  margin-bottom: 32px;
 }
 
 img {
@@ -100,4 +100,5 @@ button {
   height: 60px;
   padding: 0;
   margin: 0px 368px 70px 368px;
+  cursor: pointer;
 }
