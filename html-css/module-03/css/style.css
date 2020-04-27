@@ -94,11 +94,11 @@ img {
 /* BUTTON AREA */
 
 button {
+  display: block;
   font-size: 20px;
   line-height: 24px;
-  width: 160px;
-  height: 60px;
-  padding: 0;
-  margin: 0px 368px 70px 368px;
+  padding: 24px 34px;
   cursor: pointer;
+  margin: auto;
+  margin-bottom: 70px;
 }
