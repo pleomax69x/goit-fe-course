@@ -47,22 +47,22 @@ img {
 .site-navigation {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 0px 165px;
   height: 191px;
 }
 
 .site-navigation li {
   display: inline-block;
-  width: 18%;
+  margin-right: 100px;
   text-align: center;
   padding-top: 72px;
 }
 
-.site-navigation li:first-child {
-  margin-left: 120px;
+.site-navigation li:last-child {
+  margin-right: 0px;
 }
 
-.site-navigation li:first-child a:hover {
+.site-navigation li a:hover {
   color: blue;
 }
 
@@ -80,7 +80,7 @@ img {
   width: 420px;
   margin: 0;
   padding: 0;
-  margin-right: 58px;
+  margin-right: 56px;
   margin-bottom: 134px;
 }
 .section-block:nth-child(even) {
