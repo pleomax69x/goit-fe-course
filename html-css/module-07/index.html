@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;600;700&family=Roboto:ital,wght@0,400;1,300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Oleo+Script&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
@@ -14,30 +14,100 @@
   <body>
     <header class="container">
       <nav class="navigation">
-        <a class="site-logo" href="#">MoGo</a>
+        <a class="site-logo" href="#">Golden</a>
         <ul class="nav-list">
           <li class="nav-list-item">
-            <a class="nav-list-link" href="#">about</a>
+            <a class="nav-list-link" href="#">Home</a>
           </li>
           <li class="nav-list-item">
-            <a class="nav-list-link" href="#">service</a>
+            <a class="nav-list-link" href="#">Services</a>
           </li>
           <li class="nav-list-item">
-            <a class="nav-list-link" href="#">work</a>
+            <a class="nav-list-link" href="#">Portfolio</a>
           </li>
           <li class="nav-list-item">
-            <a class="nav-list-link" href="#">blog</a>
+            <a class="nav-list-link" href="#">About</a>
           </li>
           <li class="nav-list-item">
-            <a class="nav-list-link" href="#">contact</a>
+            <a class="nav-list-link" href="#">Contact</a>
           </li>
         </ul>
       </nav>
     </header>
     <main>
-     
-    
+      <section class="container">
+        <h2>Services<span>Proin iaculis purus consequat sem cure.</span></h2>
+        <ul class="service-list">
+          <li class="service-list-item basket">
+            <h3>E-Commerce</h3>
+            <p>
+              Proin iaculis purus consequat sem cure digni ssim. Donec
+              porttitora entum suscipit aenean rhoncus posuere odio in
+              tincidunt.
+            </p>
+          </li>
+          <li class="service-list-item laptop">
+            <h3>Responsive Web</h3>
+            <p>
+              Proin iaculis purus consequat sem cure digni ssim. Donec
+              porttitora entum suscipit aenean rhoncus posuere odio in
+              tincidunt.
+            </p>
+          </li>
+          <li class="service-list-item locked">
+            <h3>Web Security</h3>
+            <p>
+              Proin iaculis purus consequat sem cure digni ssim. Donec
+              porttitora entum suscipit aenean rhoncus posuere odio in
+              tincidunt.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="dark">
+        <div class="container">
+          <h2 class="title-white">
+            Services<span>Proin iaculis purus consequat sem cure.</span>
+          </h2>
+          <form action="#">
+            <div class="contact-form">
+              <div class="form-list">
+                <input
+                  name="user_name"
+                  type="text"
+                  class="form-item"
+                  placeholder="your name *"
+                  required
+                  minlength="4"
+                />
+                <input
+                  name="user_email"
+                  type="email"
+                  class="form-item"
+                  placeholder="your e-mail *"
+                  required
+                />
+                <input
+                  name="user_subject"
+                  type="text"
+                  class="form-item"
+                  placeholder="subject"
+                />
+              </div>
+              <textarea
+                minlength="5"
+                maxlength="200"
+                name="user_message"
+                placeholder="Your message *"
+                required
+              ></textarea>
+            </div>
+            <div class="btn-wrapper">
+              <button class="form-btn" type="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </section>
     </main>
-   
   </body>
 </html>
