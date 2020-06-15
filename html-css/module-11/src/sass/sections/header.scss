@@ -1,0 +1,59 @@
+.header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding-top: 22px;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.site-logo {
+  @include font(30px, 700, 1.2);
+  color: $ff-color;  
+}
+.nav-list {
+  display: flex;
+  &__item:not(:last-child) {
+    margin-right: 52px;
+  }
+
+  &__link {
+    position: relative;
+    @include font(14px, 400, 1.2);
+    color: $ff-color;
+    text-transform: uppercase;
+    transition: color 0.2s linear;
+    &:hover {
+      color: $second-color;
+    }
+  }
+  &__item:hover &__link::after {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &__link::after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 3px;
+    bottom: -10px;
+    background-color: $second-color;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s linear;
+  }
+
+  &__icon {
+    width: 18px;
+    height: 18px;
+    fill: $ff-color;
+    transition: color 0.2s linear;
+    &:hover {
+      fill: $second-color;
+    }
+  }
+}

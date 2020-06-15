@@ -1,0 +1,49 @@
+.service-section {
+  padding-top: 43px;
+  padding-bottom: 45px;
+}
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  &__item {
+    flex-basis: 336px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    padding-left: 58px;
+    &:not(:nth-last-child(-n + 3)) {
+      margin-bottom: 96px;
+    }
+    &--alarm {
+      background-image: url(../images/svg/ALARM.svg);
+    }
+    &--line {
+      background-image: url(../images/svg/line_graph.svg);
+    }
+    &--computer {
+      background-image: url(../images/svg/computer.svg);
+    }
+    &--book {
+      background-image: url(../images/svg/book.svg);
+    }
+    &--csshtml {
+      background-image: url(../images/svg/csshtml.svg);
+    }
+    &--digital {
+      background-image: url(../images/svg/digital.svg);
+    }
+  }
+  &__title {
+    @include font(14px, 700, 1.2);
+    
+    color: $sf-color;
+    text-transform: uppercase;
+    margin-bottom: 9px;
+  }
+  &__text {
+    font-size: 15px;
+    line-height: 1.6;
+    color: $tf-color;
+  }
+}

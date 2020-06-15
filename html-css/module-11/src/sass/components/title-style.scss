@@ -1,0 +1,29 @@
+.section-title {
+  @include font(30px, 700, 1.2);
+    
+    color: $sf-color;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 66px;
+
+  &--cursive {
+    display: block;
+    @include font(24px, 400, 1.2, $cursive-font);
+    
+    color: $sf-color;
+    text-align: center;
+    margin-bottom: 14px;
+    text-transform: initial;
+  }  
+  &::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: $first-color;
+    margin: 35px auto 0px;
+  }
+  &--margin {
+    margin-bottom: 40px;
+  }
+}

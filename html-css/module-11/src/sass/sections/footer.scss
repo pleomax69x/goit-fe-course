@@ -1,0 +1,41 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 63px;
+  border-top: 1px solid #e5e5e5;
+  &_text {
+    @include font(14px, 400, 1.2);
+    
+    color: $sf-color;
+  }
+  &_text-link {
+    color: $first-color;
+  }
+}
+
+.contact-form {
+  display: flex;
+  &__input {
+    height: 40px;
+    padding-left: 12px;
+    width: 230px;
+    border: 1px solid #e7e7e7;    
+  }
+  &__input::placeholder {
+    text-transform: capitalize;
+    font-style: italic;
+  }
+  &__btn {
+    @include font(14px, 700, 1.2);
+
+    color: $ff-color;
+    background-color: $third-color;
+    border: none;    
+    width: 150px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+}
+
+
