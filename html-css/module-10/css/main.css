@@ -154,7 +154,7 @@ a {
   background-image: linear-gradient(
       to top,
       rgba(252, 227, 138, 0.9) 0%,
-      rgb(243, 129, 129, 0.9) 100%
+      rgba(243, 129, 129, 0.9) 100%
     ),
     url(../img/eagle.jpg);
   background-repeat: no-repeat;

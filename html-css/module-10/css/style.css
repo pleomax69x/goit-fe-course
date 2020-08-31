@@ -172,19 +172,19 @@ a {
       left bottom,
       left top,
       from(rgba(252, 227, 138, 0.9)),
-      to(rgb(243, 129, 129, 0.9))
+      to(rgba(243, 129, 129, 0.9))
     ),
     url(../img/eagle.jpg);
   background-image: -o-linear-gradient(
       bottom,
       rgba(252, 227, 138, 0.9) 0%,
-      rgb(243, 129, 129, 0.9) 100%
+      rgba(243, 129, 129, 0.9) 100%
     ),
     url(../img/eagle.jpg);
   background-image: linear-gradient(
       to top,
       rgba(252, 227, 138, 0.9) 0%,
-      rgb(243, 129, 129, 0.9) 100%
+      rgba(243, 129, 129, 0.9) 100%
     ),
     url(../img/eagle.jpg);
   background-repeat: no-repeat;
@@ -200,19 +200,19 @@ a {
         left bottom,
         left top,
         from(rgba(252, 227, 138, 0.9)),
-        to(rgb(243, 129, 129, 0.9))
+        to(rgba(243, 129, 129, 0.9))
       ),
       url(../img/eagle@2x.jpg);
     background-image: -o-linear-gradient(
         bottom,
         rgba(252, 227, 138, 0.9) 0%,
-        rgb(243, 129, 129, 0.9) 100%
+        rgba(243, 129, 129, 0.9) 100%
       ),
       url(../img/eagle@2x.jpg);
     background-image: linear-gradient(
         to top,
         rgba(252, 227, 138, 0.9) 0%,
-        rgb(243, 129, 129, 0.9) 100%
+        rgba(243, 129, 129, 0.9) 100%
       ),
       url(../img/eagle@2x.jpg);
   }
